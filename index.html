@@ -30,29 +30,15 @@
 </head>
 
 <body>
-	<!-- <nav class="navbar py-4 navbar-expand-lg ftco_navbar navbar-light bg-light flex-row">
+	<!-- <nav class="navbar navbar-expand-lg ftco_navbar">
 		<div class="container">
-			<div class="row no-gutters d-flex align-items-start align-items-center px-3 px-md-0">
-				<div class="col-lg-2 pr-4 align-items-center">
-					
-				</div>
-				<div class="col-lg-10 d-none d-md-block">
-					<div class="row d-flex">
-						<div class="col-md-4 pr-4 d-flex topper align-items-center">
-							<div class="icon bg-white mr-2 d-flex justify-content-center align-items-center"><span
-									class="icon-map"></span></div>
-							<span class="text">Address: 198 West 21th Street, Suite 721 New York NY 10016</span>
-						</div>
-						<div class="col-md pr-4 d-flex topper align-items-center">
-							<div class="icon bg-white mr-2 d-flex justify-content-center align-items-center"><span
-									class="icon-paper-plane"></span></div>
-							<span class="text">Email: youremail@email.com</span>
-						</div>
-						<div class="col-md pr-4 d-flex topper align-items-center">
-							<div class="icon bg-white mr-2 d-flex justify-content-center align-items-center"><span
-									class="icon-phone2"></span></div>
-							<span class="text">Phone: + 1235 2355 98</span>
-						</div>
+			<div class="row">
+				<div class="col-lg-12 align-items-center">
+					<div class="d-flex">
+						<p class="button-custom order-lg-last mb-0"><a href="appointment.html"
+								class="btn btn-secondary">Sign Up Free</a></p>
+						<p class="button-custom order-lg-last mb-0"><a href="appointment.html"
+								class="btn btn-secondary">Log In</a></p>
 					</div>
 				</div>
 			</div>
@@ -60,25 +46,38 @@
 	</nav> -->
 
 
-	<!-- Edit //-----------  -->
-  	<nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
-		<div class="container d-flex align-items-center">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
+		<div class="container d-flex align-items-center p-2">
+			<!-- Edit // 24 / 7 / 2025 -----------  -->
+			<a class="navbar-brand" href="index.html">
+				<img src="images/logo.png" class="logo" alt="">
+			</a>
+			<!-- End /// --------------  -->
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
 				aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="oi oi-menu"></span> Menu
 			</button>
-			<p class="button-custom order-lg-last mb-0"><a href="appointment.html"
-					class="btn btn-secondary py-2 px-3">Make An Appointment</a></p>
 			<div class="collapse navbar-collapse" id="ftco-nav">
-				<a class="navbar-brand" href="index.html">
-						<img src="images/logo.png" class="logo" alt="">
-					</a>
+				<!-- Edit // -------  -->
 				<ul class="navbar-nav m-auto">
 					<li class="nav-item active"><a href="index.html" class="nav-link pl-0">Home</a></li>
 					<li class="nav-item"><a href="login.html" class="nav-link">login</a></li>
 					<li class="nav-item"><a href="signup.html" class="nav-link">signup</a></li>
 					<li class="nav-item"><a href="verificationCode.html" class="nav-link">verificationCode</a></li>
 					<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+				</ul>
+				<!-- Edit // 24 / 7 / 2025 -----------  -->
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item">
+						<a href="index.html" class="nav-link btn btn-secondary mr-1 py-1 text-white">
+							Sign Up Free
+						</a>
+					</li>
+					<li class="nav-item"><a href="index.html" class="nav-link btn btn-secondary py-1 text-white">
+							Log
+							In
+						</a></li>
+						<!-- End // --------------  -->
 				</ul>
 			</div>
 		</div>
@@ -87,6 +86,7 @@
 	<!-- Add  //-----------  -->
 	<section class="home-slider owl-carousel">
 		<div class="slider-item" style="background-image:url(images/bg_1.jpg);" data-stellar-background-ratio="0.5">
+			<!-- Edit // ---------------  -->
 			<div class="overlay">
 				<div class="container">
 					<div class="row no-gutters slider-text align-items-center justify-content-start"
@@ -108,7 +108,8 @@
 						data-scrollax-parent="true">
 						<div class="col-md-6 text ftco-animate">
 							<h1 class="mb-4">We Care <span>About Your Health</span></h1>
-							<h3 class="subheading">Your Health is Our Top Priority with Comprehensive, Affordable medical.
+							<h3 class="subheading">Your Health is Our Top Priority with Comprehensive, Affordable
+								medical.
 							</h3>
 							<p><a href="#" class="btn btn-secondary px-4 py-3 mt-3">View our works</a></p>
 						</div>
@@ -119,63 +120,62 @@
 	</section>
 	<!-- End // --------- -->
 
-	
-  <div class="calculator-container">
-        <h2 class="calculator-title">Shipping Cost Calculator</h2>
+	<!-- Add ------- //  -->
+	<div class="calculator-container">
+		<h2 class="calculator-title">Shipping Cost Calculator</h2>
 
-        <form class="form-grid">
-            <input type="text" placeholder="Origin City (e.g., Riyadh, Saudi Arabia)">
-            <input type="text" placeholder="Destination City (e.g., Cairo, Egypt)">
+		<form class="form-grid">
+			<input type="text" placeholder="Origin City (e.g., Riyadh, Saudi Arabia)">
+			<input type="text" placeholder="Destination City (e.g., Cairo, Egypt)">
 
-            <!-- Weight -->
-            <div class="counter-wrapper">
-                <button type="button" class="counter-btn minus">-</button>
-                <input type="number" value="6" min="0" data-field="weight">
-                <button type="button" class="counter-btn plus">+</button>
-            </div>
+			<!-- Weight -->
+			<div class="counter-wrapper">
+				<button type="button" class="counter-btn minus">-</button>
+				<input type="number" value="6" min="0" data-field="weight">
+				<button type="button" class="counter-btn plus">+</button>
+			</div>
 
-            <!-- Length -->
-            <div class="counter-wrapper">
-                <button type="button" class="counter-btn minus">-</button>
-                <input type="number" value="16" min="0" data-field="length">
-                <button type="button" class="counter-btn plus">+</button>
-            </div>
+			<!-- Length -->
+			<div class="counter-wrapper">
+				<button type="button" class="counter-btn minus">-</button>
+				<input type="number" value="16" min="0" data-field="length">
+				<button type="button" class="counter-btn plus">+</button>
+			</div>
 
-            <!-- Width -->
-            <div class="counter-wrapper">
-                <button type="button" class="counter-btn minus">-</button>
-                <input type="number" value="15" min="0" data-field="width">
-                <button type="button" class="counter-btn plus">+</button>
-            </div>
+			<!-- Width -->
+			<div class="counter-wrapper">
+				<button type="button" class="counter-btn minus">-</button>
+				<input type="number" value="15" min="0" data-field="width">
+				<button type="button" class="counter-btn plus">+</button>
+			</div>
 
-            <!-- Height -->
-            <div class="counter-wrapper">
-                <button type="button" class="counter-btn minus">-</button>
-                <input type="number" value="15" min="0" data-field="height">
-                <button type="button" class="counter-btn plus">+</button>
-            </div>
-        </form>
+			<!-- Height -->
+			<div class="counter-wrapper">
+				<button type="button" class="counter-btn minus">-</button>
+				<input type="number" value="15" min="0" data-field="height">
+				<button type="button" class="counter-btn plus">+</button>
+			</div>
+		</form>
 
-        <button class="calculate-btn">Calculate Shipping</button>
+		<button class="calculate-btn">Calculate Shipping</button>
 
-        <div class="results-section">
-            <h3>Available Shipping Companies:</h3>
+		<div class="results-section">
+			<h3>Available Shipping Companies:</h3>
 
-            <div class="company-card">
-                <div class="company-info">
-                    <img src="images/logo.png" class="company-logo"
-                        alt="SMSA">
-                    <div class="company-details">
-                        <span class="company-name">SMSA International Air</span>
-                        <span class="delivery-time">3 to 7 Working Days</span>
-                    </div>
-                </div>
-                <span class="price">106.56 SAR</span>
-                <button class="create-btn">Create Shipment</button>
-            </div>
-        </div>
-    </div>
-	
+			<div class="company-card">
+				<div class="company-info">
+					<img src="images/logo.png" class="company-logo" alt="SMSA">
+					<div class="company-details">
+						<span class="company-name">SMSA International Air</span>
+						<span class="delivery-time">3 to 7 Working Days</span>
+					</div>
+				</div>
+				<span class="price">106.56 SAR</span>
+				<button class="create-btn">Create Shipment</button>
+			</div>
+		</div>
+	</div>
+
 
 
 	<footer class="ftco-footer ftco-bg-dark ftco-section">
@@ -319,23 +319,23 @@
 	<script src="js/google-map.js"></script>
 	<script src="js/main.js"></script>
 
-	    <script>
-        document.querySelectorAll(".counter-wrapper").forEach(wrapper => {
-            const input = wrapper.querySelector("input");
-            const plusBtn = wrapper.querySelector(".plus");
-            const minusBtn = wrapper.querySelector(".minus");
+	<script>
+		document.querySelectorAll(".counter-wrapper").forEach(wrapper => {
+			const input = wrapper.querySelector("input");
+			const plusBtn = wrapper.querySelector(".plus");
+			const minusBtn = wrapper.querySelector(".minus");
 
-            plusBtn.addEventListener("click", () => {
-                input.value = parseInt(input.value) + 1;
-            });
+			plusBtn.addEventListener("click", () => {
+				input.value = parseInt(input.value) + 1;
+			});
 
-            minusBtn.addEventListener("click", () => {
-                if (parseInt(input.value) > 0) {
-                    input.value = parseInt(input.value) - 1;
-                }
-            });
-        });
-    </script>
+			minusBtn.addEventListener("click", () => {
+				if (parseInt(input.value) > 0) {
+					input.value = parseInt(input.value) - 1;
+				}
+			});
+		});
+	</script>
 
 </body>
 

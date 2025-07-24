@@ -1,0 +1,16 @@
+.owl-carousel.home-slider .slider-item .slider-text h1 {
+    text-align: right;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .subheading {
+    text-align: right;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text p {
+    text-align: right;
+}
+
+.form-group .label {
+    text-align: right; 
+    width: 100%;
+}
