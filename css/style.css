@@ -12073,7 +12073,7 @@ h5,
     bottom: 0;
     left: 0;
     right: 0;
-    background: #0000003d;
+    background: #00000070;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12108,7 +12108,7 @@ h5,
 
 .owl-carousel.home-slider .slider-item .slider-text h1 span {
     display: block;
-    color: #000000;
+    color: #ffffff;
 }
 
 @media (max-width: 991.98px) {
@@ -12121,7 +12121,7 @@ h5,
     font-size: 18px;
     font-weight: 400;
     text-transform: uppercase;
-    color: rgba(0, 0, 0, 0.8);
+    color: rgb(255 255 255);
 }
 
 .owl-carousel.home-slider .slider-item .slider-text p {
