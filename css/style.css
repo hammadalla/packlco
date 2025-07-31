@@ -12017,11 +12017,12 @@ h5,
     width: 14px;
     height: 14px;
     content: "";
-    border: 1px solid #e6e6e6;
+    border: 1px solid #2741c1;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     border-radius: 50%;
+    background: #2741c136;
 }
 
 .owl-carousel .owl-dots .owl-dot:hover,
@@ -12050,6 +12051,8 @@ h5,
     position: relative;
     height: 600px;
     z-index: 0;
+    box-shadow: 0 0 10px 15px #ebebeb69;
+    border-radius: 50px;
 }
 
 .owl-carousel.home-slider .slider-item {
@@ -12059,6 +12062,11 @@ h5,
     height: 600px;
     position: relative;
     z-index: 0;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    border-radius: 50px;
 }
 
 @media (max-width: 1199.98px) {
@@ -12073,11 +12081,17 @@ h5,
     bottom: 0;
     left: 0;
     right: 0;
-    background: #00000070;
+    background: #ffffff00;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
+    border-radius: 30px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    border-radius: 50px;
 }
 
 .owl-carousel.home-slider .slider-item .slider-text {
@@ -12101,14 +12115,14 @@ h5,
 
 .owl-carousel.home-slider .slider-item .slider-text h1 {
     font-size: 60px;
-    color: #3052a0;
+    color: #000000;
     line-height: 1.2;
     font-weight: 900;
 }
 
 .owl-carousel.home-slider .slider-item .slider-text h1 span {
     display: block;
-    color: #ffffff;
+    color: #000000;
 }
 
 @media (max-width: 991.98px) {
@@ -12121,14 +12135,14 @@ h5,
     font-size: 18px;
     font-weight: 400;
     text-transform: uppercase;
-    color: rgb(255 255 255);
+    color: rgb(0 0 0);
 }
 
 .owl-carousel.home-slider .slider-item .slider-text p {
     font-size: 18px;
     line-height: 1.5;
     font-weight: 300;
-    color: rgba(0, 0, 0, 0.8);
+    color: rgb(0 0 0);
 }
 
 .owl-carousel.home-slider .slider-item .slider-text p.sub-p {
@@ -12242,7 +12256,7 @@ h5,
     height: 10px;
     margin: 5px;
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.4);
+    background: rgb(71 108 187);
 }
 
 .owl-carousel.home-slider .owl-dots .owl-dot.active {
@@ -13394,6 +13408,7 @@ textarea.form-control {
     padding-top: 4em;
     padding-bottom: 2em;
     position: relative;
+    border-radius: 50px;
 }
 
 .testimony-section .owl-nav {
