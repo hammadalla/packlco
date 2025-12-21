@@ -12116,7 +12116,7 @@ h5,
 }
 
 .owl-carousel.home-slider .slider-item .slider-text h1 {
-    font-size: 60px;
+    font-size: 40px;
     color: #000000;
     line-height: 1.2;
     font-weight: 900;
@@ -12134,10 +12134,11 @@ h5,
 }
 
 .owl-carousel.home-slider .slider-item .slider-text .subheading {
-    font-size: 18px;
+    font-size: 13px;
     font-weight: 400;
     text-transform: uppercase;
     color: rgb(0 0 0);
+    font-weight: bold;
 }
 
 .owl-carousel.home-slider .slider-item .slider-text p {
